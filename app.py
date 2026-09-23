@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import math
+import os
 from pathlib import Path
 
 import numpy as np
@@ -39,7 +40,18 @@ YEAR_MAX = int(DF["model_year"].max())
 ALL_ORIGINS = sorted(int(v) for v in DF["origin"].dropna().unique())
 ALL_CYLINDERS = sorted(int(v) for v in DF["cylinders"].dropna().unique())
 
-app = Dash(__name__, title="Auto MPG | Proyecto final", suppress_callback_exceptions=True)
+_hub_prefix = os.environ.get("JUPYTERHUB_SERVICE_PREFIX")
+_dash_kwargs = {}
+if _hub_prefix:
+    # Binder/JupyterHub expone el puerto 8050 a través de jupyter-server-proxy.
+    _dash_kwargs["requests_pathname_prefix"] = f"{_hub_prefix.rstrip('/')}/proxy/8050/"
+
+app = Dash(
+    __name__,
+    title="Auto MPG | Proyecto final",
+    suppress_callback_exceptions=True,
+    **_dash_kwargs,
+)
 server = app.server
 
 
