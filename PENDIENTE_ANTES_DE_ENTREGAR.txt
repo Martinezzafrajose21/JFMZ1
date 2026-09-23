@@ -1,0 +1,11 @@
+PENDIENTE ANTES DE SUBIR A LA UNIVERSIDAD
+
+Los datos originales ya se incluyen y se validó el arranque local, las pestañas,
+los filtros y las métricas con python tests/integration_test.py.
+Faltan la publicación y la comprobación externa exigidas por la actividad:
+
+1. Subir todos los archivos de esta carpeta al repositorio público Martinezzafrajose21/JFMZ1.
+2. Abrir el enlace Binder de LINKS.txt y comprobar que Dashboard_Auto_MPG.ipynb ejecuta el dashboard.
+3. Confirmar que los dos enlaces de LINKS.txt abren los recursos publicados.
+
+El archivo data/auto-mpg.data permite abrir el dashboard sin descargar datos.
