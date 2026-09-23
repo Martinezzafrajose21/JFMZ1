@@ -71,7 +71,7 @@ El archivo original `data/auto-mpg.data` se incluye en el proyecto. La aplicaci�
 
 ## Binder
 
-El notebook `Dashboard_Auto_MPG.ipynb` importa la misma aplicación y utiliza el modo Jupyter integrado de Dash. El repositorio previsto es `Martinezzafrajose21/JFMZ1`; tras subir todos los archivos, abre el enlace de `LINKS.txt` y verifica la ejecución en Binder antes de entregar.
+El notebook `Dashboard_Auto_MPG.ipynb` importa la misma aplicación y utiliza el modo Jupyter integrado de Dash. El proyecto está publicado en `Martinezzafrajose21/JFMZ1`. El enlace de acceso a Binder figura en `LINKS.txt`.
 
 ## Controles del dashboard
 
