@@ -5,6 +5,4 @@ José Felipe Martínez Zafra
 https://github.com/Martinezzafrajose21/JFMZ1
 
 2. Binder:
-https://mybinder.org/v2/gh/Martinezzafrajose21/JFMZ1/HEAD?labpath=Dashboard_Auto_MPG.ipynb
-
-IMPORTANTE: el repositorio aún debe recibir los archivos del proyecto. Abrir el enlace Binder y verificar el dashboard antes de entregar.
+https://mybinder.org/v2/gh/Martinezzafrajose21/JFMZ1/HEAD?urlpath=%2Fdoc%2Ftree%2FDashboard_Auto_MPG.ipynb
