@@ -4,7 +4,7 @@
 
 - **Informe del proceso de desarrollo y justificación de decisiones:** `INFORME_FINAL_JFMZ_COMPLETO.pdf` y `INFORME_FINAL_JFMZ_COMPLETO.docx`.
 - **Carpeta con los archivos requeridos para visualizar el dashboard:** `app.py`, `model_utils.py`, `assets/style.css`, `requirements.txt`, `Dashboard_Auto_MPG.ipynb`, scripts de inicio y documentación.
-- **Archivo con los dos enlaces solicitados:** `LINKS.txt`. Apunta al repositorio `Martinezzafrajose21/JFMZ1`; el enlace Binder debe verificarse después de publicar los archivos.
+- **Archivo con los dos enlaces solicitados:** `LINKS.txt`. Apunta al repositorio `Martinezzafrajose21/JFMZ1` y al notebook en Binder.
 
 ## Diseño visual
 
@@ -36,6 +36,6 @@ El producto no se limita a mostrar gráficos estáticos. Permite contrastar mode
 - Datos originales de UCI incluidos en `data/auto-mpg.data`, con atribución y licencia.
 - Prueba `tests/integration_test.py` de carga, HTTP, pestañas, filtros y resultados de los modelos.
 
-## Último paso que depende del estudiante
+## Publicación
 
-Antes de subir la versión definitiva a la plataforma, publicar el contenido en el repositorio GitHub del estudiante y comprobar el enlace de Binder.
+El proyecto está publicado en el repositorio GitHub del estudiante. `LINKS.txt` contiene los dos enlaces para la entrega.
